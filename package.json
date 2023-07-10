@@ -1,0 +1,11 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less-cmp": "lessc styles/index.less styles/index.css"
+  },
+  "author": "Siddharth Bhawalkar",
+  "license": "ISC"
+}

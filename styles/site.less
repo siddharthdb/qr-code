@@ -1,0 +1,43 @@
+@cmp-name: qr-code;
+
+.@{cmp-name} {
+  &-container {
+    font-family: Outfit;
+    margin: 0;
+  }
+
+  &-wrapper {
+    width: 292px;
+    border-radius: 20px;
+    padding: 16px;
+    background: @white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &-image {
+    width: 288px;
+    border-radius: 10px;
+  }
+
+  &-heading {
+    margin-top: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+    width: 256px;
+  }
+
+  &-body {
+    margin: 18px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: @text-gray;
+    letter-spacing: 0.188px;
+    width: 256px;
+  }
+}
